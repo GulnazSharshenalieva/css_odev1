@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #FFF9F9;
+  }
+
+h1 {
+    text-align: center;
+    color: #6867AC;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #A267AC;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    color: #6867AC;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+   h4 {
+    color: #6867AC;
+    margin-top: 20px;
+   }
+  p {
+    text-align: left;
+    color: #980F5A;
+  }
+
+  .email, .phone {
+    text-decoration: none;
+    color: #980F5A;
+  }
+  .address {
+    color: #980F5A;
+  }
+
+.navbar {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navbar:before {
+  content: '';
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #D6E5FA;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+  ul.navbarlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+  }
+  
+  ul.navbarlist li {
+    float: left;
+  }
+  
+  ul.navbarlist li a {
+    display: block;
+    color: #980F5A;
+    height: 50px;
+    text-align: center;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  ul.navbarlist li a:hover {
+    color: #316B83;
+  }
+
+  ul.products {
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  ul.products li a {
+    color: #980F5A;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+  }
+ 
+.products2 {
+  margin-bottom: 250px;
+}
+
+.products1 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.container {
+  max-width: 1170px;
+ 
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  
+.footer-col ul {
+    list-style: none;
+  }
+.footer {
+    background-color: #C9CCD5;
+    padding: 70px 0;
+
+  }
+
+  .footer-col {
+    width: 25%;
+    padding: 0 25px;
+    
+  }
+
+  .footer-col h4 {
+    font-size: 18px;
+    color: #980F5A;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    
+    position: relative;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #980F5A;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover {
+    color: #316B83;
+    padding: 10px;
+  }
+
+  .hakkimizda {
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .mainpage {
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 800px;
+
+  }
+
+  .productsimg {
+    width: 300px;
+    height: 350px;
+    margin: 40px;
+  }
+
+  .contacts {
+    margin-bottom: 20px;
+  }
+  
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #92A9BD;
+    transition: all 0.5s ease;
+
+  }
+
+
+  .footer-col .social-links a:hover {
+    color: #316B83;
+    background-color: #FFEFEF;
+  }
+    
+
+  
